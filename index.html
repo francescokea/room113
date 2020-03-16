@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Nunito:wght@300;400;700;800;900&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Heebo:900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+    <title>Francesco</title>
+
+    <script>
+        var bodyBg = "white"
+        function changeBodyBg(){
+         if (bodyBg == "white") {
+             document.body.style.backgroundColor = '#121212';
+             bodyBg = "#121212";
+         } else {
+             document.body.style.backgroundColor = 'white';
+             bodyBg = 'white';
+         }
+        }
+        
+      
+    </script>
+
+
+<script>
+    var currentColor = "black";
+    function changeColor() { 
+            if(currentColor == "black"){ 
+                document.getElementById("saluti").style.color = '#c8e6c9';
+               currentColor = "#c8e6c9";
+            } else {
+                document.getElementById("saluti").style.color = 'black';
+                currentColor = "black";
+            } 
+        }
+    </script>
+
+</head>
+<body>
+    <div class="wrapper">
+
+    
+<header>
+  <h1 id="saluti">
+        To keep and share.
+  </h1>
+</header>
+<button type="button" onclick="changeBodyBg(); changeColor(); " id="color">Dark Mode</button>
+
+</div>
+</body>

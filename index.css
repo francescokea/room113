@@ -1,0 +1,15 @@
+
+
+.wrapper {
+    display: flexbox;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+
+#saluti {
+    font-family: 'Nunito', sans-serif;
+    font-size: 60px;
+   
+}
